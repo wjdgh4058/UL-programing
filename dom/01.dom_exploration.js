@@ -69,3 +69,15 @@
 => 위의 ul 노드를 찾을 수 있었으니 두번째 li 요소는 ul의 두번째, 마지막 자식 요소이다.
 => document.body.lastElementChild.children[1], document.body.lastElementChild.lastElementChild
  */
+
+// 형제 DOM
+
+//임의의 DOM 요소 노드 elem이 있다고 가정해봅시다.
+
+/* 
+elem.lastChild.nextSibling은 항상 null일까요?
+=> 맞다. lastChild는 elem 의 마지막 노드를 검사한 것이기 때문에 다음 노드를 가리키는 nextSibling을 하면 null이 나올 것이다.
+
+elem.children[0].previousSibling은 항상 null일까요? 
+=> 아니다. children을 하면 elem 의 첫번째 요소노드이다. 요소 노드 이전에는 공백이나 text 노드가 존재 할 수있기 때문에 항상 null 이 나오지는 않는다.
+*/
