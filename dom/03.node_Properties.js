@@ -127,3 +127,15 @@ li 노드 아래에 있는 모든 <li> 태그의 개수를 출력
 
 => BODY 가 나올 것이다. body 의 내용을 수정해 주었기 때문에 body의 firstChild 는 주석이 된다. 이 주석의 data이기 때문에 내용만 나오고 그렇기 때문에 대문자인 BODY 가 출력된다.
 */
+
+// DOM 계층 구조와 document
+
+/* 
+document는 어떤 클래스에 속할까요?
+=> HTMLDocument
+
+DOM 계층 구조에서 document이 속한 클래스는 어디에 위치해 있을까요?
+=>
+
+이 클래스는 Node, Element, HTMLElement 중 어떤 클래스를 상속받을까요?
+*/
