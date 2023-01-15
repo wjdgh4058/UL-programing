@@ -129,7 +129,7 @@ li 노드 아래에 있는 모든 <li> 태그의 개수를 출력
 */
 
 // DOM 계층 구조와 document
-
+ㅁㅁ;
 /* 
 document는 어떤 클래스에 속할까요?
 => HTMLDocument
